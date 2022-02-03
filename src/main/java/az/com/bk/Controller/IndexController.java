@@ -27,7 +27,7 @@ public class IndexController {
         return "mod";
     }
 
-    @GetMapping("test")
+    @GetMapping("test1")
     public String test()
     {
         return "test";
