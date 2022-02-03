@@ -12,6 +12,7 @@ public class IndexController {
     private final CardService cardService;
 
     public IndexController(CardService cardService) {
+
         this.cardService = cardService;
     }
 
@@ -24,6 +25,12 @@ public class IndexController {
     public String mod()
     {
         return "mod";
+    }
+
+    @GetMapping("test")
+    public String test()
+    {
+        return "test";
     }
 
 
